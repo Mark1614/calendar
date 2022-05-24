@@ -1,0 +1,91 @@
+/*siteHeader*/
+.siteHeader {
+    padding: 4px 16px;
+}
+
+.siteHeader>h1 {
+    font-size: 34px;
+}
+
+/*end*/
+
+/*calendar*/
+.calendar {
+    background-color: white;
+    margin: 16px;
+    border-radius: 24px;
+    color: #333;
+}
+
+.calendar-header {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+.calendar-header>time {}
+
+.calendar-weekdays {
+    display: flex;
+}
+
+.calendar-weekdays>li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+
+}
+
+.calendar-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-days>li {
+    width: 14.2857%;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+
+}
+
+.calendar-days-today {
+    background-color: #fed32c;
+    border-radius: 10px;
+}
+
+.calendar-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.calendar-days-selected {
+    border-radius: 10px;
+    outline: 1px solid #fed32c
+}
+
+li.calendar-days-disabled {
+    color: #999
+}
+
+.calendar-actions-left {}
+
+.calendar-actions-left>button {
+    height: 24px;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.calendar-actions-right {
+    display: flex;
+}
+
+.calendar-actions-right>button {
+    height: 24px;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+/*end*/
